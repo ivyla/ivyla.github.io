@@ -1,6 +1,8 @@
+import "../fonts.css"
+
 let About = () => (
     <div>
-        <h1> About </h1>
+        <h2> About </h2>
         <p>
             {" "}
             Thank you so much for visiting my site! Heres a few fun facts about

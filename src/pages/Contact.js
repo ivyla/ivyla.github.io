@@ -1,3 +1,5 @@
+import "../fonts.css"
+
 let Contact = () => (
     <div>
         <h1> Contact </h1>

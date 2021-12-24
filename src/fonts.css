@@ -1,0 +1,15 @@
+/* default is 16  */
+
+.homeHeader {
+    font-size: 3rem;
+}
+
+/* Header for each section */
+h2 {
+    font-size: 2rem;
+}
+
+/* default heading for all the readable text */
+p {
+    font-size: 1.3rem;
+}

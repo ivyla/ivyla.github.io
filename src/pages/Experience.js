@@ -1,9 +1,10 @@
+import "../fonts.css"
 import ExperienceTile from "../components/ExperienceTile"
 
 let Experience = () => {
     return (
         <div>
-            <h1> Experience </h1> <ExperienceTile />{" "}
+            <h2> Experience </h2> <ExperienceTile />{" "}
         </div>
     )
 }
