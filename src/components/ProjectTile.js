@@ -1,9 +1,13 @@
+import "../SharedStyles.css"
+import {GithubFilled, CodeOutlined, LinkOutlined} from "@ant-design/icons"
+
 const projectHeader = {
     fontSize: "1.6rem"
 }
 
 const tile = {
-    maxWidth: "28%",
+    // minWidth: "30%",
+    maxWidth: "30%",
     marginBottom: "20px"
 }
 
@@ -26,8 +30,13 @@ let InfoTile = ({
         <p>
             <i> React, MongoDB, Node </i>
         </p>
-        <a href="facebook.com"> Link 1 </a>
-        <a href="facebook.com"> Link 2 </a>
+        <a href="mailto:ila@ucsc.edu" target="_blank" rel="noopener noreferrer">
+            <CodeOutlined className="media-icons" id="email-icon" />
+        </a>
+
+        <a href="mailto:ila@ucsc.edu" target="_blank" rel="noopener noreferrer">
+            <LinkOutlined className="media-icons" id="email-icon" />
+        </a>
     </div>
 )
 export default InfoTile

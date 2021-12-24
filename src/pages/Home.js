@@ -8,7 +8,7 @@ import {
 
 import "../fonts.css"
 import "./pagestyles/Home.css"
-import "./pagestyles/SectionShared.css"
+import "../SharedStyles.css"
 
 let Home = () => (
     <div className="section">

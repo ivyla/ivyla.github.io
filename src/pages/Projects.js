@@ -1,7 +1,6 @@
 import ProjectTile from "../components/ProjectTile"
 import "../fonts.css"
 import "./pagestyles/Projects.css"
-import "./pagestyles/SectionShared.css"
 
 let Projects = () => (
     <div>
@@ -10,7 +9,7 @@ let Projects = () => (
             <ProjectTile />
             <ProjectTile />
             <ProjectTile />
-            <ProjectTile />
+            {/* <ProjectTile /> */}
         </div>
     </div>
 )
