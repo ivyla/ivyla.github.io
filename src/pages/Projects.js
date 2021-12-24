@@ -3,7 +3,7 @@ import "../fonts.css"
 import "./pagestyles/Projects.css"
 
 let Projects = () => (
-    <div>
+    <div className="section">
         <h2> Featured Projects </h2>
         <div className="projects">
             <ProjectTile />

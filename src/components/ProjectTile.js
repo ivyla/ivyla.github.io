@@ -1,12 +1,7 @@
 import "../SharedStyles.css"
 import {GithubFilled, CodeOutlined, LinkOutlined} from "@ant-design/icons"
 
-const projectHeader = {
-    fontSize: "1.6rem"
-}
-
 const tile = {
-    // minWidth: "30%",
     maxWidth: "30%",
     marginBottom: "20px"
 }
@@ -21,7 +16,11 @@ let InfoTile = ({
     demoLink
 }) => (
     <div style={tile}>
-        <h2 style={projectHeader}> My Cool App </h2>
+        {/* <h2 style={projectHeader}> My Cool App </h2> */}
+        <p>
+            {" "}
+            <b> My Cool App </b>{" "}
+        </p>
         <p>
             {" "}
             An app created to bring together and crowdsource projects. It does
