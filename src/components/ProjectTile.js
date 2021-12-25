@@ -1,20 +1,32 @@
 import "../SharedStyles.css"
 import {GithubFilled, CodeOutlined, LinkOutlined} from "@ant-design/icons"
+import {AutoComplete} from "antd"
 
 const tile = {
     maxWidth: "30%",
+    marginBottom: "20px",
+    paddingRight: "2rem"
+}
+
+const lastItem = {
+    // display: "none",
+    maxWidth: "30%",
     marginBottom: "20px"
+    // alignSelf: "center",
+    // backgroundColor: "green"
 }
 
 // icons for project: github, link (if applicable),
 
-let InfoTile = ({
+let ProjectTile = ({
     projectName,
     projectDesc,
     technologies,
     repoLink,
-    demoLink
+    demoLink,
+    lastItem
 }) => (
+    // <div style={lastItem === true ? lastItem : tile}>
     <div style={tile}>
         {/* <h2 style={projectHeader}> My Cool App </h2> */}
         <p>
@@ -38,4 +50,4 @@ let InfoTile = ({
         </a>
     </div>
 )
-export default InfoTile
+export default ProjectTile
