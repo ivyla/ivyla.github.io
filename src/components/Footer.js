@@ -3,15 +3,14 @@ import "../fonts.css"
 const footerText = {
     textAlign: "center",
     fontSize: "14px",
-    marginBottom: "1.3rem"
+    marginBottom: "1.3rem",
+    fontFamily: "Karla"
 }
 
 const backToTop = {
-    all: "unset"
+    all: "unset",
+    fontFamily: "Karla"
 }
-// const linkStyle = {
-//     // textDecoration: "none"
-// }
 
 let Footer = () => {
     return (
