@@ -23,15 +23,6 @@ let Footer = () => {
             >
                 &nbsp; Back to top
             </button>
-            {/* <a
-                // href="#0"
-                target="_blank"
-                rel="noopener noreferrer"
-                // style={linkStyle}
-            >
-                {" "}
-                Back to top{" "}
-            </a> */}
         </div>
     )
 }

@@ -4,7 +4,7 @@ import {AutoComplete} from "antd"
 
 const tile = {
     maxWidth: "30%",
-    marginBottom: "20px",
+    marginBottom: "2.8rem",
     paddingRight: "2rem"
 }
 
@@ -17,7 +17,7 @@ let ProjectTile = ({
     lastItem
 }) => (
     <div style={tile}>
-        <p>
+        <p style={{marginTop: "0px"}}>
             {" "}
             <b> My Cool App </b>{" "}
         </p>
