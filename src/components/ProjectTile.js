@@ -8,16 +8,6 @@ const tile = {
     paddingRight: "2rem"
 }
 
-const lastItem = {
-    // display: "none",
-    maxWidth: "30%",
-    marginBottom: "20px"
-    // alignSelf: "center",
-    // backgroundColor: "green"
-}
-
-// icons for project: github, link (if applicable),
-
 let ProjectTile = ({
     projectName,
     projectDesc,
@@ -26,9 +16,7 @@ let ProjectTile = ({
     demoLink,
     lastItem
 }) => (
-    // <div style={lastItem === true ? lastItem : tile}>
     <div style={tile}>
-        {/* <h2 style={projectHeader}> My Cool App </h2> */}
         <p>
             {" "}
             <b> My Cool App </b>{" "}
