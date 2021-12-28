@@ -11,31 +11,39 @@ const tile = {
 let ProjectTile = ({
     projectName,
     projectDesc,
+    projectDate,
     technologies,
     repoLink,
-    demoLink,
-    lastItem
-}) => (
-    <div style={tile}>
-        <p style={{marginTop: "0px"}}>
-            {" "}
-            <b> My Cool App </b>{" "}
-        </p>
-        <p>
-            {" "}
-            An app created to bring together and crowdsource projects. It does
-            this and it does that{" "}
-        </p>
-        <p>
-            <i> React, MongoDB, Node </i>
-        </p>
-        <a href="mailto:ila@ucsc.edu" target="_blank" rel="noopener noreferrer">
-            <CodeOutlined className="media-icons" id="email-icon" />
-        </a>
+    demoLink
+}) => {
+    let repoComponent =
+        repoLink === "" ? null : (
+            <a href={repoLink} target="_blank" rel="noopener noreferrer">
+                <GithubFilled className="media-icons" id="email-icon" />
+            </a>
+        )
 
-        <a href="mailto:ila@ucsc.edu" target="_blank" rel="noopener noreferrer">
-            <LinkOutlined className="media-icons" id="email-icon" />
-        </a>
-    </div>
-)
+    let demoComponent =
+        demoLink === "" ? null : (
+            <a href={repoLink} target="_blank" rel="noopener noreferrer">
+                <LinkOutlined className="media-icons" id="email-icon" />{" "}
+            </a>
+        )
+
+    return (
+        <div style={tile}>
+            <p style={{marginTop: "0px"}}>
+                <b> {projectName} </b>
+            </p>
+            <p>{projectDesc}</p>
+            <p>
+                <i> {technologies} </i>
+            </p>
+
+            {repoComponent}
+            {demoComponent}
+        </div>
+    )
+}
+
 export default ProjectTile

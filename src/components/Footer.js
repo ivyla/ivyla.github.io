@@ -1,5 +1,5 @@
 import "../fonts.css"
-
+import "../SharedStyles.css"
 const footerText = {
     textAlign: "center",
     fontSize: "14px",
@@ -14,15 +14,18 @@ const backToTop = {
 
 let Footer = () => {
     return (
-        <div style={footerText}>
-            {" "}
-            Built with ♥ by Ivy La. © 2021 |
-            <button
-                onClick={() => window.scroll({top: 0, behavior: "smooth"})}
-                style={backToTop}
-            >
-                &nbsp; Back to top
-            </button>
+        // <div className="section">
+        <div style={{marginTop: "4rem", marginBottom: "2rem"}}>
+            <div style={footerText}>
+                {" "}
+                Built with ♥ by Ivy La. © 2021 |
+                <button
+                    onClick={() => window.scroll({top: 0, behavior: "smooth"})}
+                    style={backToTop}
+                >
+                    &nbsp; Back to top
+                </button>
+            </div>
         </div>
     )
 }
