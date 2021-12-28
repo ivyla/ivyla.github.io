@@ -1,5 +1,3 @@
-import logo from ".././images/logo.svg"
-// import "./pagestyles/Home.css"
 import "../fonts.css"
 import "../SharedStyles.css"
 import schwab from "../images/schwab.png"
@@ -34,10 +32,7 @@ let ExperienceTile = ({
             <img src={images[imageIndex]} style={companyLogo} alt="logo" />
             <p>
                 {role} @ <b> {company} </b>
-                {/* {" "}
-                Software Engineer @ <b> Charles Schwab </b>{" "} */}
             </p>
-            {/* <span style={dateStyle}> 2021 - Present </span> */}
             <p> 2021 - Present </p>
             <p> {roleDesc} </p>
         </div>
