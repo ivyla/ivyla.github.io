@@ -1,28 +1,43 @@
 import "../fonts.css"
 import {CoffeeOutlined} from "@ant-design/icons"
 // <CoffeeOutlined />
+import "../SharedStyles.css"
+import "./pagestyles/About.css"
+import bioImg from "../images/bioAlt.jpg"
+
+// might install a carousel
 
 let About = () => (
-    <div>
+    <div className="section">
         <h2> About </h2>
-        <p>
-            {" "}
-            Thank you so much for visiting my site! Heres a few fun facts about
-            me:{" "}
+        <div className="aboutInfo">
+            <div className="aboutText">
+                <p style={{marginTop: "0"}}>
+                    {" "}
+                    Thank you so much for visiting my site! Heres a few fun
+                    facts about me:{" "}
+                </p>
+
+                <p>
+                    Phasellus vulputate malesuada tortor, convallis maximus sem
+                    efficitur ut. Pellentesque id aliquet neque. Curabitur
+                    sodales magna finibus. Phasellus vulputate malesuada tortor,
+                    convallis maximus sem efficitur ut. Pellentesque id aliquet
+                    neque. Curabitur sodales magna finibus. Phasellus vulputate
+                    malesuada tortor, convallis maximus sem efficitur ut.
+                    Pellentesque id aliquet neque. Curabitur sodales magna
+                    finibus.
+                </p>
+            </div>
+            <div>
+                <img src={bioImg} className="bioImgStyle" alt="Me" />
+            </div>
+        </div>
+
+        <p className="additionalComment">
+            if you would like to know more about me or chat about anything, i'd
+            love to connect! <CoffeeOutlined className="media-icons" />
         </p>
-        <ul>
-            <li> Graduated from UCSC in 2020 with a B.S in Computer Science</li>
-            <li>
-                {" "}
-                Fell in love with technology through video editing and messing
-                with Myspace layouts at 9 years old{" "}
-            </li>
-            <li>
-                {" "}
-                Deeply admires video production, technical theater, UI/UX
-                design, nature, and tea :-){" "}
-            </li>
-        </ul>
     </div>
 )
 export default About

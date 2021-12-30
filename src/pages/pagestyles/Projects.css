@@ -2,5 +2,8 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* flex-shrink: 3; */
+    /* margin-left: 50px; */
+    /* marign-right: 150px; */
+    justify-content: flex-start;
 }

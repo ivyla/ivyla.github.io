@@ -3,14 +3,30 @@
 
 .homeHeader {
     font-size: 3rem;
+    /* font-family: "Inconsolata"; */
+    font-family: "Karla";
+    color: white;
+    /* color: #ab9df2; */
 }
 
 /* Header for each section */
 h2 {
+    /* font-family: "Inconsolata"; */
+    font-family: "Karla";
     font-size: 2rem;
+    /* color: white; */
+    color: #fc9867;
 }
 
 /* default heading for all the readable text */
 p {
     font-size: 1.3rem;
+    font-family: "Karla";
+    color: white;
+}
+
+li {
+    font-family: "Karla";
+    font-size: 1.3rem;
+    color: white;
 }

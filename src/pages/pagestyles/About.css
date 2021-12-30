@@ -1,0 +1,17 @@
+.additionalComment {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.aboutText {
+    width: 73%;
+}
+.aboutInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bioImgStyle {
+    height: 30vmin;
+    border-radius: 100%;
+}
