@@ -8,6 +8,21 @@ const tile = {
     paddingRight: "2rem"
 }
 
+const technologyItem = {
+    display: "inline",
+    backgroundColor: "black",
+    color: "white",
+    padding: "0.5rem 0.5rem 0.5rem 0.5rem",
+    borderRadius: "10px",
+    marginRight: "0.5rem"
+    // fontSize: "0.8rem"
+}
+
+// const technologiesSpacing = {
+//     display: "flex",
+//     justifyContent: "spaceBetween"
+// }
+
 let ProjectTile = ({
     projectName,
     projectDesc,
@@ -30,15 +45,18 @@ let ProjectTile = ({
             </a>
         )
 
+    let techDisplay = technologies.map((item) => (
+        <div style={technologyItem}>{item}</div>
+    ))
+
     return (
         <div style={tile}>
             <p style={{marginTop: "0px"}}>
                 <b> {projectName} </b>
             </p>
             <p>{projectDesc}</p>
-            <p>
-                <i> {technologies} </i>
-            </p>
+            <div>{techDisplay}</div>
+            <p></p>
 
             {repoComponent}
             {demoComponent}

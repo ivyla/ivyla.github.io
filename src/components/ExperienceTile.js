@@ -7,7 +7,8 @@ import readlee from "../images/readlee.png"
 import csa from "../images/csa.jpg"
 import rad from "../images/rad.png"
 
-let images = [schwab, rad, tech4good, salesforce]
+// let images = [schwab, rad, tech4good, salesforce]
+let images = [schwab, rad, tech4good]
 
 const tile = {
     maxWidth: "25%",

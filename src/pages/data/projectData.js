@@ -11,7 +11,7 @@ let projectData = [
         projectName: "Moodboard",
         projectDesc: `I built & designed this website from scratch to showcase my front end skills and provide a central place for others to learn more about me `,
         projectDate: "",
-        technologies: "HTML, CSS, Javascript, React",
+        technologies: ["HTML", "CSS", "Javascript", "React"],
         repoLink: "https://www.youtube.com/",
         demoLink: "https://www.youtube.com/"
     },
@@ -20,7 +20,7 @@ let projectData = [
         projectName: "Rent-A-Driveway (R.A.D) ",
         projectDesc: `I built & designed this website from scratch to showcase my front end skills and provide a central place for others to learn more about me! `,
         projectDate: "",
-        technologies: "HTML, CSS, Javascript, React",
+        technologies: ["HTML", "CSS", "Javascript", "React"],
         repoLink: "https://www.youtube.com/",
         demoLink: ""
     },
@@ -29,7 +29,7 @@ let projectData = [
         projectName: "Clean This Space!",
         projectDesc: `I built & designed this website from scratch to showcase my front end skills and provide a central place for others to learn more about me!`,
         projectDate: "",
-        technologies: "HTML, CSS, Javascript, React",
+        technologies: ["HTML", "CSS", "Javascript", "React"],
         repoLink: "https://www.youtube.com/",
         demoLink: "https://www.youtube.com/"
     },
@@ -38,7 +38,7 @@ let projectData = [
         projectName: "ivyla.me",
         projectDesc: `I built & designed this website from scratch to showcase my front end skills and provide a central place for others to learn more about me!`,
         projectDate: "",
-        technologies: "HTML, CSS, Javascript, React",
+        technologies: ["HTML", "CSS", "Javascript", "React"],
         repoLink: "",
         demoLink: "https://www.youtube.com/"
     }
