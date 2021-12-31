@@ -10,7 +10,7 @@ const tile = {
 
 const technologyItem = {
     display: "inline",
-    backgroundColor: "black",
+    backgroundColor: "#3c4252",
     color: "white",
     padding: "0.5rem 0.5rem 0.5rem 0.5rem",
     borderRadius: "10px",
@@ -51,7 +51,7 @@ let ProjectTile = ({
 
     return (
         <div style={tile}>
-            <p style={{marginTop: "0px"}}>
+            <p style={{marginTop: "0px", color: "#78DCE8"}}>
                 <b> {projectName} </b>
             </p>
             <p>{projectDesc}</p>
