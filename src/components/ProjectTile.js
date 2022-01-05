@@ -10,11 +10,13 @@ const tile = {
 
 const technologyItem = {
     display: "inline",
-    backgroundColor: "black",
+    // backgroundColor: "#52afeb",
+    backgroundColor: "#3d3d3d",
     color: "white",
     padding: "0.5rem 0.5rem 0.5rem 0.5rem",
     borderRadius: "10px",
-    marginRight: "0.5rem"
+    marginRight: "0.5rem",
+    boxShadow: "0 3px 5px rgb(0 0 0 / 0.2)"
     // fontSize: "0.8rem"
 }
 
