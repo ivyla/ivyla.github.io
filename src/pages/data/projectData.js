@@ -8,39 +8,39 @@
 let projectData = [
     {
         key: 1,
-        projectName: "Moodboard",
-        projectDesc: `I built & designed this website from scratch to showcase my front end skills and provide a central place for others to learn more about me `,
+        projectName: "Moodboard (in progress)",
+        projectDesc: `A  message board where users can upload text, images, and customize them to their heart's desire`,
         projectDate: "",
-        technologies: ["HTML", "CSS", "Javascript", "React"],
-        repoLink: "https://www.youtube.com/",
-        demoLink: "https://www.youtube.com/"
-    },
-    {
-        key: 2,
-        projectName: "Rent-A-Driveway (R.A.D) ",
-        projectDesc: `I built & designed this website from scratch to showcase my front end skills and provide a central place for others to learn more about me! `,
-        projectDate: "",
-        technologies: ["HTML", "CSS", "Javascript", "React"],
-        repoLink: "https://www.youtube.com/",
+        technologies: ["MongoDB", "Express", "Node", "Tailwind"],
+        repoLink: "https://github.com/ivyla/Moodboard",
         demoLink: ""
     },
     {
         key: 3,
         projectName: "Clean This Space!",
-        projectDesc: `I built & designed this website from scratch to showcase my front end skills and provide a central place for others to learn more about me!`,
+        projectDesc: `A platform where the community can crowdfund environmentally conscious events`,
         projectDate: "",
-        technologies: ["HTML", "CSS", "Javascript", "React"],
-        repoLink: "https://www.youtube.com/",
-        demoLink: "https://www.youtube.com/"
+        technologies: ["React", "Javascript", "HTML", "CSS"],
+        repoLink: "https://github.com/ivyla/Clean-This-Space",
+        demoLink: ""
     },
+    // {
+    //     key: 4,
+    //     projectName: "Interactive Text",
+    //     projectDesc: `The very first iteration of my portfolio website, designed and developed from scratch`,
+    //     projectDate: "",
+    //     technologies: ["Flutter", "Mobile"],
+    //     repoLink: "https://github.com/ivyla/flutterstringprocessor",
+    //     demoLink: ""
+    // },
     {
         key: 4,
         projectName: "ivyla.me",
-        projectDesc: `I built & designed this website from scratch to showcase my front end skills and provide a central place for others to learn more about me!`,
+        projectDesc: `The very first iteration of my portfolio website, designed and developed from scratch`,
         projectDate: "",
         technologies: ["HTML", "CSS", "Javascript", "React"],
-        repoLink: "",
-        demoLink: "https://www.youtube.com/"
+        repoLink: "https://github.com/ivyla/ivyla.github.io",
+        demoLink: ""
     }
 ]
 
