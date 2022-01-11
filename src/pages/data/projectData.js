@@ -24,15 +24,15 @@ let projectData = [
         repoLink: "https://github.com/ivyla/Clean-This-Space",
         demoLink: ""
     },
-    // {
-    //     key: 4,
-    //     projectName: "Interactive Text",
-    //     projectDesc: `The very first iteration of my portfolio website, designed and developed from scratch`,
-    //     projectDate: "",
-    //     technologies: ["Flutter", "Mobile"],
-    //     repoLink: "https://github.com/ivyla/flutterstringprocessor",
-    //     demoLink: ""
-    // },
+    {
+        key: 4,
+        projectName: "Interactive Text",
+        projectDesc: `The very first iteration of my portfolio website, designed and developed from scratch`,
+        projectDate: "",
+        technologies: ["Flutter", "Mobile"],
+        repoLink: "https://github.com/ivyla/flutterstringprocessor",
+        demoLink: ""
+    },
     {
         key: 4,
         projectName: "ivyla.me",
