@@ -18,12 +18,16 @@ let Home = () => {
     }, [])
 
     return (
-        <div data-aos="fade-up ease-out" className="section">
+        <div data-aos="fade-up" className="section">
             <h1 className="homeHeader"> Hi, I'm Ivy! </h1>
             <p>
-                I’m a full stack developer based in the bay area! Phasellus
-                vulputate malesuada tortor, convallis maximus sem efficitur ut.
-                Pellentesque id aliquet neque. Curabitur sodales magna finibus.
+                I’m a full stack developer based in the bay area! Nam consequat
+                lacus vitae dictum commodo. Nam porta ante sit amet lacus
+                scelerisque faucibus. Sed neque neque, rutrum in massa id,
+                hendrerit volutpat massa. Cras aliquam nec lorem vitae rhoncus.
+                Donec vitae magna vehicula, venenatis orci eu, lobortis odio.
+                Nam malesuada pellentesque elit sit amet auctor. Morbi
+                pellentesque libero nunc, non porta nisi aliquam at.
             </p>
 
             <a

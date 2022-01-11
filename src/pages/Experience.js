@@ -9,8 +9,10 @@ let experiences = experienceData.map((experience, index) => (
     <ExperienceTile
         role={experience.role}
         company={experience.company}
+        companyLink={experience.companyLink}
         image={experience.image}
         roleDesc={experience.roleDesc}
+        date={experience.date}
         imageIndex={index}
     />
 ))

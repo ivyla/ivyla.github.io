@@ -3,7 +3,7 @@ import "../SharedStyles.css"
 const footerText = {
     textAlign: "center",
     fontSize: "14px",
-    marginBottom: "1.3rem",
+    // marginBottom: "1.3rem",
     fontFamily: "Karla"
 }
 
@@ -15,7 +15,7 @@ const backToTop = {
 let Footer = () => {
     return (
         // <div className="section">
-        <div style={{marginTop: "4rem", marginBottom: "2rem"}}>
+        <div style={{marginTop: "4rem"}}>
             <div style={footerText}>
                 {" "}
                 Built with ♥ by Ivy La. © 2021 |

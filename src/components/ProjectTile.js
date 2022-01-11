@@ -20,11 +20,6 @@ const technologyItem = {
     // fontSize: "0.8rem"
 }
 
-// const technologiesSpacing = {
-//     display: "flex",
-//     justifyContent: "spaceBetween"
-// }
-
 let ProjectTile = ({
     projectName,
     projectDesc,

@@ -34,10 +34,10 @@ let About = () => (
             </div>
         </div>
 
-        <p className="additionalComment">
+        {/* <p className="additionalComment">
             if you would like to know more about me or chat about anything, i'd
             love to connect! <CoffeeOutlined className="media-icons" />
-        </p>
+        </p> */}
     </div>
 )
 export default About
