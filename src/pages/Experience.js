@@ -18,7 +18,7 @@ let experiences = experienceData.map((experience, index) => (
 ))
 let Experience = () => {
     return (
-        <div className="section">
+        <div className="section" id="experience">
             <h2> Experience </h2>
             <div className="experiences">{experiences}</div>
         </div>

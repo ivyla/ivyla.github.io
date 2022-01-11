@@ -14,13 +14,10 @@ body {
             rgba(249, 251, 208, 1) 100%
         )
         fixed;
+}
 
-    /* background: rgb(196, 222, 254);
-    background: linear-gradient(
-        180deg,
-        rgba(196, 222, 254, 1) 8%,
-        rgba(244, 203, 228, 1) 100%
-    ); */
+html {
+    scroll-behavior: smooth;
 }
 
 code {

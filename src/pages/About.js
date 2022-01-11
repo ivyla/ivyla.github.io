@@ -8,7 +8,7 @@ import bioImg from "../images/bioAlt.jpg"
 // might install a carousel
 
 let About = () => (
-    <div className="section">
+    <div className="section" id="about">
         <h2> About </h2>
         <div className="aboutInfo">
             <div className="aboutText">

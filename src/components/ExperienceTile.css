@@ -1,8 +1,0 @@
-.linkStyle {
-    color: black;
-}
-
-.linkStyle:hover {
-    color: #a0d1f1;
-    transition-duration: 400ms;
-}

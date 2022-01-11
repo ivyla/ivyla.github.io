@@ -3,6 +3,7 @@ import Home from "./pages/Home"
 import Projects from "./pages/Projects"
 import About from "./pages/About"
 import Experience from "./pages/Experience"
+import Nav from "./components/Nav"
 // import Contact from "./pages/Footer"
 import Footer from "./components/Footer"
 
@@ -15,13 +16,16 @@ function App() {
         Aos.init({duration: 2000})
     }, [])
     return (
-        <div className="App">
-            <Home />
-            <Projects />
-            <Experience />
-            <About />
-            {/* <Contact /> */}
-            <Footer />
+        <div>
+            <div className="App">
+                <Nav />
+                <Home />
+                <Projects />
+                <Experience />
+                <About />
+                {/* <Contact /> */}
+                <Footer />
+            </div>
         </div>
     )
 }

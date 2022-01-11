@@ -18,7 +18,7 @@ let Home = () => {
     }, [])
 
     return (
-        <div data-aos="fade-up" className="section">
+        <div data-aos="fade-up" className="section" id="home">
             <h1 className="homeHeader"> Hi, I'm Ivy! </h1>
             <p>
                 I’m a full stack developer based in the bay area! Nam consequat

@@ -6,7 +6,6 @@ import tech4good from "../images/smile-small.png"
 import readlee from "../images/readlee.png"
 import csa from "../images/csa.jpg"
 import rad from "../images/rad.png"
-import "./ExperienceTile.css"
 let images = [schwab, readlee, rad, tech4good, csa]
 
 const tile = {
@@ -38,7 +37,7 @@ let ExperienceTile = ({
                         href={companyLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="linkStyle"
+                        className="clickableLink"
                     >
                         {company}
                     </a>

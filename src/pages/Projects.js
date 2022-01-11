@@ -15,7 +15,7 @@ let projects = projectData.map((project) => (
 ))
 
 let Projects = () => (
-    <div className="section">
+    <div className="section" id="projects">
         <h2> Featured Projects </h2>
         <div className="projects">{projects}</div>
     </div>

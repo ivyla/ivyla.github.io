@@ -1,13 +1,47 @@
 .section {
     /* margin-bottom: 4rem; */
     margin-top: 4rem;
+    margin-bottom: 4rem;
     padding-left: 6rem;
     padding-right: 6rem;
 }
 
 .media-icons {
-    /* color: #78dce8; */
     color: black;
     font-size: 1.5rem;
     margin-right: 8px;
+}
+
+.media-icons:hover {
+    color: #1e95e3;
+    transition-duration: 400ms;
+}
+
+.clickableLink {
+    color: #5fb2e8;
+    /* color: black; */
+}
+
+.clickableLink:hover {
+    color: #1e95e3;
+    transition-duration: 400ms;
+}
+
+/*  */
+.hoverLink {
+    text-decoration: none;
+    underline: none;
+    color: black;
+    font-weight: bold;
+}
+
+.hoverLink:hover {
+    color: #5fb2e8;
+    transition-duration: 400ms;
+}
+
+.listItem {
+    display: inline;
+    padding-left: 20px;
+    /* marginleft: 20px; */
 }
