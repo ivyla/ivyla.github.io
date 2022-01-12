@@ -14,7 +14,8 @@ const tile = {
 }
 
 const companyLogo = {
-    height: "25vmin",
+    height: "15vmin",
+    // margin: "0 auto",
     // width: "25vmin",
     pointerEvents: "none"
 }
@@ -27,6 +28,7 @@ let ExperienceTile = ({
     date,
     imageIndex
 }) => {
+    const thirdBullet = roleDesc[2] == null ? {display: "none"} : null
     return (
         <div style={tile}>
             <img src={images[imageIndex]} style={companyLogo} alt="logo" />
@@ -43,10 +45,11 @@ let ExperienceTile = ({
                     </a>
                 </p>
             </b>
-            <p> {date} </p>
+            <p className="smallText"> {date} </p>
             <ul>
                 <li> {roleDesc[0]} </li>
                 <li> {roleDesc[1]} </li>
+                <li style={thirdBullet}> {roleDesc[2]} </li>
             </ul>
             {/* <p> {roleDesc[0]} </p> */}
         </div>

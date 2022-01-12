@@ -2,31 +2,37 @@
 /* project header is currently 1.6rem */
 
 .homeHeader {
-    font-size: 3rem;
-    /* font-family: "Inconsolata"; */
+    font-size: 4rem;
+    margin: 0;
     font-family: "Karla";
-    /* color: white; */
-    /* color: #ab9df2; */
 }
 
 /* Header for each section */
 h2 {
-    /* font-family: "Inconsolata"; */
     font-family: "Karla";
     font-size: 2.2rem;
-    /* color: white; */
-    /* color: #fc9867; */
+    margin-bottom: 1rem;
 }
 
 /* default heading for all the readable text */
 p {
     font-size: 1.3rem;
     font-family: "Karla";
-    /* color: white; */
 }
 
 li {
     font-family: "Karla";
     font-size: 1.3rem;
-    /* color: white; */
+}
+
+.smallText {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.codeComment {
+    margin-top: 0;
+    color: #b0b0b0;
+    font-family: "Inconsolata";
+    vertical-align: text-top;
 }

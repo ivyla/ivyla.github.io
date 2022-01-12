@@ -11,7 +11,7 @@ let Nav = () => (
     <div style={customNavStyle}>
         <ul className="navBar">
             <li className="listItem">
-                <a href="#home" className="hoverLink">
+                <a href="." className="hoverLink">
                     Home
                 </a>
             </li>

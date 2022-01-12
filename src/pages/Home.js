@@ -27,16 +27,20 @@ let Home = () => {
     return (
         <div data-aos="fade-up" className="section" id="home">
             <h1 className="homeHeader"> Ivy La 💡🌳 </h1>
-            <p className="smallText"> Software Engineer, design enthusiast </p>
-            <Spacer />
+            <p className="smallText">
+                <b> 💙 Full Stack Software Engineer, design enthusiast </b>{" "}
+            </p>
+            <p className="smallText">
+                &nbsp;
+                <b>📍 &nbsp;San Francisco, CA </b>
+            </p>
+            <Spacer spacerNum={2} />
             <p>
-                Hello! My name is Ivy I'm a{" "}
-                <span style={emphasis}> Full Stack Developer </span> based in
-                <span style={emphasis}> San Francisco, CA. </span> <br />I
-                currently work at Charles Schwab where I am developing Java
-                applications and studying investment performance methodology. I
-                love learning anything there is to know about computing and
-                creating meaningful, elegant experiences.
+                Hello, my name is Ivy! I currently work at Charles Schwab where
+                I am developing Java applications and studying investment
+                performance methodology. I love learning anything there is to
+                know about computing and creating meaningful, elegant
+                experiences.{" "}
             </p>
             <a
                 href="https://linkedin.com/in/ivyla"

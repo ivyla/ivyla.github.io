@@ -4,12 +4,14 @@ import {CoffeeOutlined} from "@ant-design/icons"
 import "../SharedStyles.css"
 import "./pagestyles/About.css"
 import bioImg from "../images/bioAlt.jpg"
+import Spacer from "../components/Spacer"
 
 // might install a carousel
 
 let About = () => (
     <div className="section" id="about">
-        <h2> About </h2>
+        <h2> About Me 😋</h2>
+        <Spacer spacerNum={0} />
         <div className="aboutInfo">
             <div className="aboutText">
                 <p style={{marginTop: "0"}}>

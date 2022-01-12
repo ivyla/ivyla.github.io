@@ -38,7 +38,7 @@ let projectData = [
     },
     {
         key: 4,
-        projectName: "ivyla.me",
+        projectName: "Portfolio V1",
         projectDesc: `The very first iteration of my portfolio website, designed and developed from scratch`,
         projectDate: "",
         technologies: ["HTML", "CSS", "Javascript", "React"],

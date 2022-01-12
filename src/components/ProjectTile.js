@@ -4,13 +4,14 @@ import {AutoComplete} from "antd"
 
 const tile = {
     maxWidth: "30%",
+    marginTop: "1.8rem",
     marginBottom: "2.8rem",
     paddingRight: "2rem"
 }
 
 const technologyItem = {
     display: "inline",
-    // backgroundColor: "#52afeb",
+    // backgroundColor: "#6F6866",
     backgroundColor: "#3d3d3d",
     color: "white",
     padding: "0.5rem 0.5rem 0.5rem 0.5rem",
@@ -26,7 +27,8 @@ let ProjectTile = ({
     projectDate,
     technologies,
     repoLink,
-    demoLink
+    demoLink,
+    projectType
 }) => {
     let repoComponent =
         repoLink === "" ? null : (
@@ -51,6 +53,7 @@ let ProjectTile = ({
             <p style={{marginTop: "0px"}}>
                 <b> {projectName} </b>
             </p>
+            <p className="smallText"> {projectType} </p>
             <p>{projectDesc}</p>
             <div>{techDisplay}</div>
             <p></p>

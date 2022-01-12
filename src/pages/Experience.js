@@ -4,6 +4,7 @@ import ExperienceTile from "../components/ExperienceTile"
 import "./pagestyles/Experience.css"
 
 import experienceData from "../pages/data/experienceData"
+import Spacer from "../components/Spacer"
 
 let experiences = experienceData.map((experience, index) => (
     <ExperienceTile
@@ -19,7 +20,8 @@ let experiences = experienceData.map((experience, index) => (
 let Experience = () => {
     return (
         <div className="section" id="experience">
-            <h2> Experience </h2>
+            <h2> Experience 👔 </h2>
+            <Spacer spacerNum={1} />
             <div className="experiences">{experiences}</div>
         </div>
     )

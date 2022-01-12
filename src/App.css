@@ -1,12 +1,9 @@
 .App {
+    display: flex;
+    flex-direction: column;
     max-width: 1200px;
     margin: 0 auto;
     background: white;
-    /* padding-left: 400px; */
-    /* margin-top: 2rem; */
-    /* margin-bottom: 2rem; */
     padding: 1rem 1rem 2rem 2rem;
-    /* border-radius: 50px; */
-    /* padding-right: 4rem; */
     box-shadow: 0 3px 20px rgb(0 0 0 / 0.2);
 }
