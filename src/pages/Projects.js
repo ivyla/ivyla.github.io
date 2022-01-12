@@ -18,6 +18,8 @@ let projects = projectData.map((project) => (
 let Projects = () => (
     <div className="section" id="projects">
         <h2> Featured Projects </h2>
+
+        <span> </span>
         <div className="projects">{projects}</div>
     </div>
 )

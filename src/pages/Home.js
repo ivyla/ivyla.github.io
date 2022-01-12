@@ -11,6 +11,7 @@ import "../SharedStyles.css"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import {useEffect} from "react"
+import Spacer from "../components/Spacer"
 
 const emphasis = {
     // fontWeight: "bold"
@@ -27,8 +28,7 @@ let Home = () => {
         <div data-aos="fade-up" className="section" id="home">
             <h1 className="homeHeader"> Ivy La 💡🌳 </h1>
             <p className="smallText"> Software Engineer, design enthusiast </p>
-            {/* <p className="smallText"> Design enthusiast </p> */}
-            {/* <p className="smallText"> Software Engineer </p> */}
+            <Spacer />
             <p>
                 Hello! My name is Ivy I'm a{" "}
                 <span style={emphasis}> Full Stack Developer </span> based in

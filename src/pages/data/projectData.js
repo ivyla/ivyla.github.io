@@ -31,7 +31,7 @@ let projectData = [
         projectName: "Rent A Driveway",
         projectDesc: `A mobile application where users can reserve and rent out parking spaces`,
         projectDate: "",
-        technologies: ["Flutter", "Mobile"],
+        technologies: ["Flutter", "Firebase", "Mobile"],
         repoLink: "https://github.com/ivyla/flutterstringprocessor",
         demoLink: "",
         projectType: "senior design project"
