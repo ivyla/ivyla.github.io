@@ -12,6 +12,12 @@ import Aos from "aos"
 import "aos/dist/aos.css"
 import {useEffect} from "react"
 
+const emphasis = {
+    // fontWeight: "bold"
+    // color: "#5fb2e8"
+    // background: "-webkit-linear-gradient(#eee, #333)"
+}
+
 let Home = () => {
     useEffect(() => {
         Aos.init({duration: 2000})
@@ -19,17 +25,19 @@ let Home = () => {
 
     return (
         <div data-aos="fade-up" className="section" id="home">
-            <h1 className="homeHeader"> Hi, I'm Ivy! </h1>
+            <h1 className="homeHeader"> Ivy La 💡🌳 </h1>
+            <p className="smallText"> Software Engineer, design enthusiast </p>
+            {/* <p className="smallText"> Design enthusiast </p> */}
+            {/* <p className="smallText"> Software Engineer </p> */}
             <p>
-                I’m a full stack developer based in the bay area! Nam consequat
-                lacus vitae dictum commodo. Nam porta ante sit amet lacus
-                scelerisque faucibus. Sed neque neque, rutrum in massa id,
-                hendrerit volutpat massa. Cras aliquam nec lorem vitae rhoncus.
-                Donec vitae magna vehicula, venenatis orci eu, lobortis odio.
-                Nam malesuada pellentesque elit sit amet auctor. Morbi
-                pellentesque libero nunc, non porta nisi aliquam at.
+                Hello! My name is Ivy I'm a{" "}
+                <span style={emphasis}> Full Stack Developer </span> based in
+                <span style={emphasis}> San Francisco, CA. </span> <br />I
+                currently work at Charles Schwab where I am developing Java
+                applications and studying investment performance methodology. I
+                love learning anything there is to know about computing and
+                creating meaningful, elegant experiences.
             </p>
-
             <a
                 href="https://linkedin.com/in/ivyla"
                 target="_blank"
@@ -44,7 +52,6 @@ let Home = () => {
             >
                 <GithubFilled className="media-icons" id="github-icon" />
             </a>
-
             <a
                 href="mailto:ila@ucsc.edu"
                 target="_blank"
@@ -52,7 +59,6 @@ let Home = () => {
             >
                 <MailFilled className="media-icons" id="email-icon" />
             </a>
-
             <a
                 href="mailto:ila@ucsc.edu"
                 target="_blank"
@@ -60,6 +66,7 @@ let Home = () => {
             >
                 <FileTextOutlined className="media-icons" id="email-icon" />
             </a>
+            <span className="codeComment"> // connect with me! :-) </span>
         </div>
     )
 }

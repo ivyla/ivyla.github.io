@@ -11,6 +11,7 @@ let projects = projectData.map((project) => (
         technologies={project.technologies}
         repoLink={project.repoLink}
         demoLink={project.demoLink}
+        projectType={project.projectType}
     />
 ))
 
