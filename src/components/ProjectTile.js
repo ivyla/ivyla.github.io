@@ -3,8 +3,9 @@ import {GithubFilled, CodeOutlined, LinkOutlined} from "@ant-design/icons"
 import {AutoComplete} from "antd"
 
 const tile = {
-    // width: "250px"
-    // paddingRight: "30px"
+    // display: "flex",
+    // width: "400px",
+    marginRight: "30px"
 }
 
 const technologyItem = {
@@ -17,6 +18,12 @@ const technologyItem = {
     borderRadius: "10px",
     marginRight: "0.5rem",
     marginBottom: "0.5rem"
+}
+
+const projectTitle = {
+    // float: "right"
+    display: "block"
+    // justifyContent: "spaceBetween"
 }
 
 const techItems = {
@@ -53,16 +60,18 @@ let ProjectTile = ({
 
     return (
         <div style={tile}>
-            <p style={{marginTop: "0px"}}>
-                <b> {projectName} </b>
-            </p>
+            <div style={projectTitle}>
+                <p style={{marginTop: "0px"}}>
+                    <b> {projectName} </b>
+                    &nbsp;
+                    {repoComponent}
+                    {demoComponent}
+                </p>
+            </div>
             <p className="smallText"> {projectType} </p>
             <p>{projectDesc}</p>
             <div style={techItems}>{techDisplay}</div>
             <p></p>
-
-            {repoComponent}
-            {demoComponent}
         </div>
     )
 }
