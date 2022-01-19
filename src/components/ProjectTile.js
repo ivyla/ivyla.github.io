@@ -3,24 +3,27 @@ import {GithubFilled, CodeOutlined, LinkOutlined} from "@ant-design/icons"
 import {AutoComplete} from "antd"
 
 const tile = {
-    maxWidth: "30%",
-    marginTop: "1.8rem",
-    marginBottom: "2.8rem",
-    paddingRight: "2rem"
+    // width: "250px"
+    // paddingRight: "30px"
 }
 
 const technologyItem = {
     display: "inline",
-    // backgroundColor: "#6F6866",
     backgroundColor: "#3d3d3d",
     color: "white",
+    boxShadow: "0 3px 5px rgb(0 0 0 / 0.2)",
+    // Sizing
     padding: "0.5rem 0.5rem 0.5rem 0.5rem",
     borderRadius: "10px",
     marginRight: "0.5rem",
-    boxShadow: "0 3px 5px rgb(0 0 0 / 0.2)"
-    // fontSize: "0.8rem"
+    marginBottom: "0.5rem"
 }
 
+const techItems = {
+    display: "flex",
+    flexDirection: "row",
+    flexWrap: "wrap"
+}
 let ProjectTile = ({
     projectName,
     projectDesc,
@@ -55,7 +58,7 @@ let ProjectTile = ({
             </p>
             <p className="smallText"> {projectType} </p>
             <p>{projectDesc}</p>
-            <div>{techDisplay}</div>
+            <div style={techItems}>{techDisplay}</div>
             <p></p>
 
             {repoComponent}

@@ -5,7 +5,8 @@ import "../fonts.css"
 const customNavStyle = {
     marginTop: "1rem",
     paddingLeft: "6rem",
-    paddingRight: "6rem"
+    paddingRight: "6rem",
+    alignSelf: "end"
 }
 let Nav = () => (
     <div style={customNavStyle}>

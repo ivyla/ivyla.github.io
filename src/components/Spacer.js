@@ -9,7 +9,7 @@ const spacerLarge = {
 
 const spacerMedium = {
     backgroundColor: "#B1D9F3",
-    width: "300px",
+    width: "245px",
     height: "2px",
     borderRadius: "5px",
     marginBottom: "1rem"
