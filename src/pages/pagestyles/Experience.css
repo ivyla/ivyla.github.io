@@ -1,6 +1,5 @@
 .experiences {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    /* display: grid; */
+    /* justify-content: space-evenly; */
+    grid-template-columns: repeat(auto-fit, 250px);
 }

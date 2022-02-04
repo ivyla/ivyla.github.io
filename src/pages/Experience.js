@@ -21,7 +21,7 @@ let Experience = () => {
     return (
         <div className="section" id="experience">
             <h2> Experience 👔 </h2>
-            <Spacer spacerNum={1} />
+            {/* <Spacer spacerNum={1} /> */}
             <div className="experiences">{experiences}</div>
         </div>
     )

@@ -1,9 +1,5 @@
 .projects {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    /* flex-shrink: 3; */
-    /* margin-left: 50px; */
-    /* marign-right: 150px; */
-    justify-content: flex-start;
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(auto-fit, 315px);
 }

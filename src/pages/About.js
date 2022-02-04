@@ -11,7 +11,7 @@ import Spacer from "../components/Spacer"
 let About = () => (
     <div className="section" id="about">
         <h2> About Me 😋</h2>
-        <Spacer spacerNum={0} />
+        {/* <Spacer spacerNum={0} /> */}
         <div className="aboutInfo">
             <div className="aboutText">
                 <p style={{marginTop: "0"}}>

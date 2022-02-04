@@ -54,7 +54,7 @@ const experienceData = [
     {
         key: 4,
         role: "Family Lead",
-        company: "UCSC Chinese Student Association",
+        company: "UC Santa Cruz CSA",
         companyLink: "https://www.facebook.com/CSAUCSC",
         roleDesc: [
             "Plan and advertise events at weekly meetings",

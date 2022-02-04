@@ -1,0 +1,19 @@
+.tile {
+    display: flex;
+    /* flex: 1 1 0px; */
+    flex-direction: row;
+    /* margin-bottom: 50px; */
+    /* align-content: left; */
+    align-items: center;
+    /* justify-content: space */
+    margin: auto;
+    /* justify-content: center; */
+}
+
+.companyLogo {
+    /* height: 15vmin; */
+    height: 150px;
+    width: 150px;
+    pointer-events: none;
+    object-fit: cover;
+}
