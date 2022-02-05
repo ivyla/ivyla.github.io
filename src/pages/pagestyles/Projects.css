@@ -2,4 +2,5 @@
     display: grid;
     justify-content: space-evenly;
     grid-template-columns: repeat(auto-fit, 315px);
+    row-gap: 1.25rem;
 }

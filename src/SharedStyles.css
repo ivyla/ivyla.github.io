@@ -1,23 +1,24 @@
 .section {
-    /* height: 100vh; */
     width: 87%;
-    /* margin: auto; */
-    /* margin-top: 300px; */
-}
-
-.sectionNonCentered {
-    /* width:  */
+    /* margin-top: 150px; */
+    margin-bottom: 150px;
+    /* margin-bottom: 300px; */
 }
 
 .media-icons {
     color: black;
     font-size: 1.5rem;
     margin-right: 8px;
+    transition: 4s;
+    /* transition: 400ms; */
 }
 
 .media-icons:hover {
     color: #1e95e3;
     transition-duration: 400ms;
+    transform: translateY(-3px);
+    /* transition: all 400ms easeout; */
+    transition: all 4s easeout;
 }
 
 .clickableLink {

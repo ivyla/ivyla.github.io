@@ -21,7 +21,7 @@ let projectData = [
         projectName: "Moodboard",
         projectDesc: `A  message board where users can upload text, images, and customize them to their heart's desire`,
         projectDate: "",
-        technologies: ["MongoDB", "Express", "Node", "Tailwind.css"],
+        technologies: ["MongoDB", "Express", "Node"],
         repoLink: "https://github.com/ivyla/Moodboard",
         demoLink: "",
         projectType: "personal project"

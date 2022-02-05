@@ -21,14 +21,14 @@ let ExperienceTile = ({
         roleDesc[2] == null ? {display: "none", padding: "0"} : null
     return (
         <div className="tile">
-            <div>
+            <div className="contentLeft">
                 <img
                     src={images[imageIndex]}
                     className="companyLogo"
                     alt="logo"
                 />
             </div>
-            <div>
+            <div className="contentRight">
                 <b>
                     <p>
                         {role} @{" "}
