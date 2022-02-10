@@ -18,7 +18,17 @@ let projects = projectData.map((project) => (
 
 let Projects = () => (
     <div className="section" id="projects">
-        <h2> Featured Projects 💻 </h2>
+        <div>
+            <h2 style={{display: "inline"}}> Featured Projects 💻 </h2>
+            <p style={{display: "inline"}}>
+                {" "}
+                <span className="codeComment">
+                    {" "}
+                    &nbsp; //demo links coming soon{" "}
+                </span>{" "}
+            </p>
+            <p> </p>
+        </div>
         {/* <Spacer spacerNum={2} /> */}
         <span> </span>
         <div className="projects">{projects}</div>

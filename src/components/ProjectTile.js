@@ -1,6 +1,11 @@
 import "../SharedStyles.css"
 import "../fonts.css"
-import {GithubFilled, CodeOutlined, LinkOutlined} from "@ant-design/icons"
+import {
+    GithubFilled,
+    CodeOutlined,
+    LinkOutlined,
+    FundProjectionScreenOutlined
+} from "@ant-design/icons"
 import {AutoComplete} from "antd"
 
 const tile = {
@@ -9,6 +14,7 @@ const tile = {
 
 const technologyItem = {
     display: "inline",
+    // backgroundColor: "rgb(22 83 123)",
     backgroundColor: "#3d3d3d",
     color: "white",
     boxShadow: "0 3px 5px rgb(0 0 0 / 0.2)",
@@ -42,8 +48,11 @@ let ProjectTile = ({
 
     let demoComponent =
         demoLink === "" ? null : (
-            <a href={repoLink} target="_blank" rel="noopener noreferrer">
-                <LinkOutlined className="media-icons" id="email-icon" />{" "}
+            <a href={demoLink} target="_blank" rel="noopener noreferrer">
+                <FundProjectionScreenOutlined
+                    className="media-icons"
+                    id="email-icon"
+                />{" "}
             </a>
         )
 

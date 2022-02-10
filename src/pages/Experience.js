@@ -20,8 +20,11 @@ let experiences = experienceData.map((experience, index) => (
 let Experience = () => {
     return (
         <div className="section" id="experience">
-            <h2> Experience 👔 </h2>
-            {/* <Spacer spacerNum={1} /> */}
+            <h2>
+                {/* <Spacer spacerNum={1} /> */}{" "}
+                {/* <span style={{backgroundColor: "#BEDFF5"}}> */} Experience
+                👔 {/* </span>{" "} */}
+            </h2>
             <div className="experiences">{experiences}</div>
         </div>
     )

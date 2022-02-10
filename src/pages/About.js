@@ -14,25 +14,37 @@ let About = () => (
         {/* <Spacer spacerNum={0} /> */}
         <div className="aboutInfo">
             <div className="aboutText">
-                <p style={{marginTop: "0"}}>
-                    {" "}
-                    Thank you so much for visiting my site! Heres a few fun
-                    facts about me:{" "}
+                <p>
+                    My passion for technology began when my parents handed me a
+                    copy of{" "}
+                    <a href="https://spongebob.fandom.com/wiki/SpongeBob_SquarePants_Typing">
+                        {" "}
+                        Spongebob Squarepants Typing.
+                    </a>{" "}
+                    Little did I know, the fundamental skill of typing opened me
+                    up to the amazing world wide web - I spent much of my free
+                    as a child
                 </p>
 
                 <p>
-                    Phasellus vulputate malesuada tortor, convallis maximus sem
-                    efficitur ut. Pellentesque id aliquet neque. Curabitur
-                    sodales magna finibus. Phasellus vulputate malesuada tortor,
-                    convallis maximus sem efficitur ut. Pellentesque id aliquet
-                    neque. Curabitur sodales magna finibus. Phasellus vulputate
-                    malesuada tortor, convallis maximus sem efficitur ut.
-                    Pellentesque id aliquet neque. Curabitur sodales magna
-                    finibus.
+                    {" "}
+                    In my spare time, I like to design websites, play video
+                    games, and keep myself up to date on the latest competition
+                    shows. Some of my other interests include nature, art,
+                    animation, stage lighting, and trying new tea flavors!
+                </p>
+
+                <p style={{marginTop: "0"}}>
+                    {" "}
+                    Thank you so much for visiting my site, there's nothing I
+                    love more than letting others see my creations.
                 </p>
             </div>
-            <div>
+            <div className="aboutImg">
                 <img src={bioImg} className="bioImgStyle" alt="Me" />
+                <p className="imageCaption">
+                    //fun fact: i lived by a 7-11 for 3 years!
+                </p>
             </div>
         </div>
 

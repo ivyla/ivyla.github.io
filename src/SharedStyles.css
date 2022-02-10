@@ -9,25 +9,24 @@
     color: black;
     font-size: 1.5rem;
     margin-right: 8px;
-    transition: 4s;
-    /* transition: 400ms; */
+    transition: 400ms;
 }
 
 .media-icons:hover {
     color: #1e95e3;
     transition-duration: 400ms;
     transform: translateY(-3px);
-    /* transition: all 400ms easeout; */
-    transition: all 4s easeout;
+    transition: all 400ms easeout;
 }
 
 .clickableLink {
     color: #5fb2e8;
+    transition: 400ms;
 }
 
 .clickableLink:hover {
     color: #1e95e3;
-    transition-duration: 400ms;
+    transition-duration: all 400ms;
 }
 
 /*  */
@@ -36,6 +35,7 @@
     underline: none;
     color: black;
     font-weight: bold;
+    transition: 400ms;
 }
 
 .hoverLink:hover {

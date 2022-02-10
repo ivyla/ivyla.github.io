@@ -33,7 +33,7 @@ let projectData = [
         projectDate: "",
         technologies: ["React", "Javascript", "HTML", "CSS"],
         repoLink: "https://github.com/ivyla/Clean-This-Space",
-        demoLink: "",
+        demoLink: "https://devpost.com/software/temp-2k3y9e",
         projectType: "hackathon - cruzhacks 3rd place"
     },
     {
@@ -42,8 +42,9 @@ let projectData = [
         projectDesc: `A mobile application where users can reserve and rent out parking spaces`,
         projectDate: "",
         technologies: ["Flutter", "Firebase", "Mobile"],
-        repoLink: "https://github.com/ivyla/flutterstringprocessor",
-        demoLink: "",
+        repoLink: "",
+        demoLink:
+            "https://docs.google.com/presentation/d/1TTCm3boRhFMU7ZIW47mZuz1chMMkxtGQ4POKX7DZcOE/edit#slide=id.g859d963ec1_0_2",
         projectType: "senior design project"
     },
     {
