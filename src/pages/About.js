@@ -15,15 +15,20 @@ let About = () => (
         <div className="aboutInfo">
             <div className="aboutText">
                 <p>
-                    My passion for technology began when my parents handed me a
+                    My journey as a creator began when my parents handed me a
                     copy of{" "}
                     <a href="https://spongebob.fandom.com/wiki/SpongeBob_SquarePants_Typing">
                         {" "}
                         Spongebob Squarepants Typing.
                     </a>{" "}
-                    Little did I know, the fundamental skill of typing opened me
-                    up to the amazing world wide web - I spent much of my free
-                    as a child
+                    From then on, I fell in love with the idea of typing
+                    something and seeing the results on the screen. This later
+                    fed my curiosity and I learned how to do many different
+                    things, such as make HTML changes to my Myspace page, or how
+                    to edit videos with outrageous effects. Indulging into all
+                    the resources the world wide web had to offer led me to
+                    pursuing a major in Computer Science and a career in
+                    software development.
                 </p>
 
                 <p>

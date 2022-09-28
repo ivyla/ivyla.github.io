@@ -24,7 +24,7 @@ let Projects = () => (
                 {" "}
                 <span className="codeComment">
                     {" "}
-                    &nbsp; //demo links coming soon{" "}
+                    {/* &nbsp; //demo links coming soon{" "} */}
                 </span>{" "}
             </p>
             <p> </p>

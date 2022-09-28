@@ -14,6 +14,11 @@ h2 {
     /* margin-bottom: 1rem; */
 }
 
+h3 {
+    font-size: 1.3rem;
+    font-family: "Karla";
+}
+
 /* default heading for all the readable text */
 p {
     font-size: 1.3rem;
@@ -29,6 +34,11 @@ li {
     font-size: 1rem;
     text-transform: uppercase;
 }
+
+/* .biggerText {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+} */
 
 .codeComment {
     margin-top: 0;

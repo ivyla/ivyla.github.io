@@ -5,8 +5,8 @@ const experienceData = [
         company: "Charles Schwab",
         companyLink: "https://www.schwab.com/",
         roleDesc: [
-            "Java developer for investment performance",
-            "Enhancing professional and technical skills in the NERD program"
+            "Backend development with a focus in Java Spring batch processing, functional programming, and Python test automation",
+            "Won 1st Place in a month long hackathon by developing a data visualization tool in a team of 4 "
         ],
         date: "July 2021 - Present"
         // image: "../images/schwab.png"

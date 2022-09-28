@@ -4,6 +4,7 @@ import Projects from "./pages/Projects"
 import About from "./pages/About"
 import Experience from "./pages/Experience"
 import Nav from "./components/Nav"
+import Skills from "./pages/Skills"
 // import Contact from "./pages/Footer"
 import Footer from "./components/Footer"
 
@@ -22,6 +23,7 @@ function App() {
                 <Home />
                 <Projects />
                 <Experience />
+                <Skills />
                 <About />
                 {/* <Contact /> */}
                 <Footer />
