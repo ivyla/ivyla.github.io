@@ -21,14 +21,17 @@ let About = () => (
                         {" "}
                         Spongebob Squarepants Typing.
                     </a>{" "}
-                    From then on, I fell in love with the idea of typing
-                    something and seeing the results on the screen. This later
-                    fed my curiosity and I learned how to do many different
-                    things, such as make HTML changes to my Myspace page, or how
-                    to edit videos with outrageous effects. Indulging into all
-                    the resources the world wide web had to offer led me to
-                    pursuing a major in Computer Science and a career in
-                    software development.
+                    I then fell in love with the idea of typing something and
+                    seeing the results on the screen. This fed my curiosity and
+                    I learned how to do many different things, such as making
+                    HTML changes to my Myspace page, or editing videos with
+                    outrageous effects.
+                    <p>
+                        {" "}
+                        Indulging into all the resources the world wide web
+                        offered for many years led me to pursuing a degree in
+                        Computer Science and a career in software development!{" "}
+                    </p>
                 </p>
 
                 <p>
@@ -39,10 +42,16 @@ let About = () => (
                     animation, stage lighting, and trying new tea flavors!
                 </p>
 
-                <p style={{marginTop: "0"}}>
+                <p
+                    style={{
+                        marginTop: "0",
+                        fontStyle: "italic"
+                        // fontWeight: "bold"
+                    }}
+                >
                     {" "}
                     Thank you so much for visiting my site, there's nothing I
-                    love more than letting others see my creations.
+                    love more than letting others see my creations. ✨
                 </p>
             </div>
             <div className="aboutImg">
