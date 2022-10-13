@@ -46,7 +46,7 @@ const skillsData = [
     },
     {
         key: 4,
-        skillsTitle: "Frameworks/Tools",
+        skillsTitle: "Additional",
         skillsList: [
             "Agile Best Practices",
             "SCRUM Framework",

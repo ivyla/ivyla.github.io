@@ -27,6 +27,11 @@ let Nav = () => (
                 </a>
             </li>
             <li className="listItem">
+                <a href="#skills" className="hoverLink">
+                    Skills
+                </a>
+            </li>
+            <li className="listItem">
                 <a href="#about" className="hoverLink">
                     About
                 </a>

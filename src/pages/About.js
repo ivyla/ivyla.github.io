@@ -10,7 +10,7 @@ import Spacer from "../components/Spacer"
 
 let About = () => (
     <div className="section" id="about">
-        <h2> About Me 😋</h2>
+        <h2> About Me 🌼</h2>
         {/* <Spacer spacerNum={0} /> */}
         <div className="aboutInfo">
             <div className="aboutText">
@@ -50,7 +50,7 @@ let About = () => (
                     }}
                 >
                     {" "}
-                    Thank you so much for visiting my site, there's nothing I
+                    ✨ Thank you so much for visiting my site, there's nothing I
                     love more than letting others see my creations. ✨
                 </p>
             </div>
