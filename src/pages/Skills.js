@@ -1,56 +1,80 @@
 import ProjectTile from "../components/ProjectTile"
 import "../fonts.css"
 import "./pagestyles/Projects.css"
-import skillsData from "../pages/data/projectData"
+// import skillsData from "../pages/data/projectData"
+import SkillTile from "../components/SkillTile"
 import Spacer from "../components/Spacer"
-
-// let skills = skillsData.map((project) => (
-//     <ProjectTile
-//         projectName={project.projectName}
-//         projectDesc={project.projectDesc}
-//         projectDate={project.projectDate}
-//         technologies={project.technologies}
-//         repoLink={project.repoLink}
-//         demoLink={project.demoLink}
-//         projectType={project.projectType}
-//     />
-// ))
-
-let Skills = () => (
-    <div className="section" id="skills">
-        <div>
-            <h2 style={{display: "inline"}}> Skills 🎯 </h2>
-            <h3> Languages </h3>
-            <p>
-                {" "}
-                &nbsp;&nbsp;&nbsp;&nbsp;Java, Javascript, Python, SQL, HTML, CSS{" "}
-            </p>
-            <h3> Frameworks/Tools </h3>
-            {/* <p> React </p> */}
-            <p>
-                {" "}
-                &nbsp;&nbsp;&nbsp;&nbsp; Java Spring, Java JDBC, Pivotal Cloud
-                Foundry (PCF), Junit, Atlassian Bamboo, React.js, Redux, Axios
-            </p>
-            <h3> Development </h3>
-            <p>
-                {" "}
-                &nbsp;&nbsp;&nbsp;&nbsp; REST APIs, Batch Processing,
-                Object-Oriented Programming, Computer Systems Design, Zephyr
-                Testing, Behavior Driven Development (BDD), Test Driven
-                Development (TDD), Front End Development + Design{" "}
-            </p>
-            <h3> Additional </h3>
-            <p>
-                {" "}
-                &nbsp;&nbsp;&nbsp;&nbsp; Agile Practices, Public Speaking, High
-                Fidelity Mockups, Wireframing, User Persona Research,
-                Qualitative Coding, Ideation
-            </p>
+const skillsData = [
+    {
+        key: 1,
+        skillsTitle: "Languages",
+        skillsList: ["Java", "Javascript", "Python", "SQL", "HTML", "CSS"],
+        columnNums: 3
+    },
+    {
+        key: 2,
+        skillsTitle: "Frameworks/Tools",
+        skillsList: [
+            "Java Spring",
+            "Spring Data JPA",
+            "Junit",
+            "Pivotal Cloud Foundry (PCF)",
+            "Atlassian Bamboo (CI/CD)",
+            "React.js",
+            "Redux",
+            "Axios",
+            "Pytest",
+            "SQLAlchemy",
+            "Docker"
+        ],
+        columnNums: 3
+    },
+    {
+        key: 3,
+        skillsTitle: "Development",
+        skillsList: [
+            "Front End Development + Design",
+            "REST APIs",
+            "Batch Processing",
+            "Object-Oriented Programming",
+            "Zephyr Testing",
+            "Behavior Driven Development",
+            "Test Driven Development",
+            "Computer Systems Design"
+        ],
+        columnNums: 3
+    },
+    {
+        key: 4,
+        skillsTitle: "Frameworks/Tools",
+        skillsList: [
+            "Agile Best Practices",
+            "SCRUM Framework",
+            "Public Speaking",
+            "High Fidelity Mockups",
+            "Wireframing",
+            "User Persona Research",
+            "Qualitative Coding",
+            "Ideation",
+            "Video Editing"
+        ],
+        columnNums: 3
+    }
+]
+let skills = skillsData.map((item) => (
+    // <SkillTile skillsTitle={item.skillsTitle} />
+    <SkillTile
+        skillsTitle={item.skillsTitle}
+        skillsList={item.skillsList}
+        columnNums={item.columnNums}
+    />
+))
+let Skills = () => {
+    return (
+        <div className="section" id="skills">
+            <h2> Skills 🎯 </h2>
+            <div> {skills} </div>
         </div>
-        {/* <Spacer spacerNum={2} /> */}
-        <span> </span>
-        {/* <div className="projects">{projects}</div> */}
-    </div>
-)
+    )
+}
 export default Skills
