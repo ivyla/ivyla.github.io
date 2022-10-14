@@ -6,7 +6,8 @@ const experienceData = [
         companyLink: "https://www.schwab.com/",
         roleDesc: [
             "Backend development with a focus in Java Spring batch processing, functional programming, and Python test automation",
-            "Won 1st Place in a month long hackathon by developing a data visualization tool in a team of 4 "
+            "Won 1st Place in a month long hackathon by developing a data visualization tool in a team of 4 ",
+            "NERD Program Affiliate (Sept. '21)"
         ],
         date: "July 2021 - Present"
         // image: "../images/schwab.png"

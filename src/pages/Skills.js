@@ -33,7 +33,9 @@ const skillsData = [
         key: 3,
         skillsTitle: "Development",
         skillsList: [
-            "Front End Development + Design",
+            "Front End Development",
+            "Responsive Web Design",
+            "UI Design",
             "REST APIs",
             "Batch Processing",
             "Object-Oriented Programming",
@@ -62,7 +64,6 @@ const skillsData = [
     }
 ]
 let skills = skillsData.map((item) => (
-    // <SkillTile skillsTitle={item.skillsTitle} />
     <SkillTile
         skillsTitle={item.skillsTitle}
         skillsList={item.skillsList}

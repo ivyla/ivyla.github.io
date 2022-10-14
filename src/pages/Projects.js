@@ -19,7 +19,7 @@ let projects = projectData.map((project) => (
 let Projects = () => (
     <div className="section" id="projects">
         <div>
-            <h2 style={{display: "inline"}}> Featured Projects 💻 </h2>
+            <h2 style={{display: "inline"}}> Featured Projects 🚀 </h2>
             <p style={{display: "inline"}}>
                 {" "}
                 <span className="codeComment">
