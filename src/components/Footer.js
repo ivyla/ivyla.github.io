@@ -14,7 +14,6 @@ const backToTop = {
 
 let Footer = () => {
     return (
-        // <div className="section">
         <div style={{marginTop: "4rem"}}>
             <div style={footerText}>
                 {" "}
