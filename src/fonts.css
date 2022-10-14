@@ -1,0 +1,48 @@
+/* default is 16  */
+/* project header is currently 1.6rem */
+
+.homeHeader {
+    font-size: 4rem;
+    margin: 0;
+    font-family: "Karla";
+}
+
+/* Header for each section */
+h2 {
+    font-family: "Karla";
+    font-size: 2.2rem;
+    /* margin-bottom: 1rem; */
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-family: "Karla";
+}
+
+/* default heading for all the readable text */
+p {
+    font-size: 1.3rem;
+    font-family: "Karla";
+}
+
+li {
+    font-family: "Karla";
+    font-size: 1.3rem;
+}
+
+.smallText {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+/* .biggerText {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+} */
+
+.codeComment {
+    margin-top: 0;
+    color: #b0b0b0;
+    font-family: "Inconsolata";
+    vertical-align: text-top;
+}

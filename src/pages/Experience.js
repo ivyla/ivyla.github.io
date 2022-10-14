@@ -1,0 +1,32 @@
+import "../fonts.css"
+import "../SharedStyles.css"
+import ExperienceTile from "../components/ExperienceTile"
+import "./pagestyles/Experience.css"
+
+import experienceData from "../pages/data/experienceData"
+import Spacer from "../components/Spacer"
+
+let experiences = experienceData.map((experience, index) => (
+    <ExperienceTile
+        role={experience.role}
+        company={experience.company}
+        companyLink={experience.companyLink}
+        image={experience.image}
+        roleDesc={experience.roleDesc}
+        date={experience.date}
+        imageIndex={index}
+    />
+))
+let Experience = () => {
+    return (
+        <div className="section" id="experience">
+            <h2>
+                {/* <Spacer spacerNum={1} /> */}{" "}
+                {/* <span style={{backgroundColor: "#BEDFF5"}}> */} Experience
+                👔 {/* </span>{" "} */}
+            </h2>
+            <div className="experiences">{experiences}</div>
+        </div>
+    )
+}
+export default Experience
