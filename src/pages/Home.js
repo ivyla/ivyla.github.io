@@ -11,14 +11,16 @@ import "../SharedStyles.css"
 import Aos from "aos"
 import "aos/dist/aos.css"
 import {useEffect} from "react"
-import Spacer from "../components/Spacer"
+import homeImg from "../images/bioAlt.jpg"
+import "./pagestyles/About.css"
 
-const customHomeSection = {
-    height: "90vh",
-    width: "80%",
-    marginTop: "150px"
-    // marginTop: "5%"
-    // alignSelf: "center"
+const mySpacer = {
+    backgroundColor: "#B1D9F3",
+    color: "#B1D9F3",
+    width: "60%",
+    height: "2px",
+    borderRadius: "5px",
+    marginBottom: "1rem"
 }
 
 let Home = () => {
@@ -27,20 +29,25 @@ let Home = () => {
     }, [])
 
     return (
-        <div data-aos="fade-up" style={customHomeSection} id="home">
+        // <div data-aos="fade-up" style={customHomeSection} id="home">
+        <div data-aos="fade-up" id="home">
             {/* <div id="home" style={customHomeSection}> */}
-            <h1 className="homeHeader"> Ivy La 💡🌳 </h1>
+            <h1> Ivy La 💡🌳 </h1>
             <p className="smallText">
                 <b> 💙 Full Stack Software Engineer, design enthusiast </b>{" "}
             </p>
-            <Spacer spacerNum={2} />
+            {/* <Spacer spacerNum={2} /> */}
+            <div style={mySpacer}> </div>
             <p>
-                Hello, my name is Ivy! I am a Full Stack developer based in San
-                Francisco, CA. Currently, I work at Charles Schwab where I am
-                developing Java applications and studying investment performance
-                methodology. I love learning anything there is to know about
-                computing and creating meaningful, elegant experiences.{" "}
+                Hi, I'm Ivy! I am a Full Stack developer based in San Francisco,
+                CA. I'm currently working @ Charles Schwab as a backend software
+                engineer. I'm really passionate about creating front end
+                interfaces as well so I currently have some more exciting
+                projects in the works! I hope to utilize my creations to their
+                fullest potential by delivering meaningful and elegant
+                experiences.{" "}
             </p>
+
             <a
                 href="https://linkedin.com/in/ivyla"
                 target="_blank"
@@ -69,7 +76,7 @@ let Home = () => {
             >
                 <FileTextOutlined className="media-icons" id="email-icon" />
             </a>
-            <span className="codeComment"> // connect with me! :-) </span>
+            <span className="codeComment"> // let's connect, please :-) </span>
         </div>
     )
 }

@@ -21,11 +21,11 @@ let About = () => (
                         {" "}
                         Spongebob Squarepants Typing.
                     </a>{" "}
-                    I then fell in love with the idea of typing something and
-                    seeing the results on the screen. This fed my curiosity and
-                    I learned how to do many different things, such as making
-                    HTML changes to my Myspace page, or editing videos with
-                    outrageous effects.
+                    I fell in love with the idea of typing something and seeing
+                    the results on the screen. Deeply inspired to feed my
+                    curiosity, I learned how to do many different things like
+                    making HTML changes to my Myspace page, or editing videos
+                    with outrageous effects.
                     <p>
                         {" "}
                         Indulging into all the resources the world wide web

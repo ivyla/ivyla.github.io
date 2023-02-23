@@ -6,6 +6,16 @@
 // demoLink
 
 let projectData = [
+    // {
+    //     key: 1,
+    //     projectName: "NERD Network",
+    //     projectDesc: `A  message board where users can upload text, images, and customize them to their heart's desire`,
+    //     projectDate: "",
+    //     technologies: ["React", "JSX", "Javascript"],
+    //     repoLink: "https://github.com/ivyla/Moodboard",
+    //     demoLink: "",
+    //     projectType: "hackthon project"
+    // },
     {
         key: 6,
         projectName: "ezSplit",
