@@ -17,7 +17,7 @@ let Footer = () => {
         <div style={{marginTop: "4rem"}}>
             <div style={footerText}>
                 {" "}
-                Built with ♥ by Ivy La. © 2021 |
+                Built with ♥ by Ivy La. © 2023 |
                 <button
                     onClick={() => window.scroll({top: 0, behavior: "smooth"})}
                     style={backToTop}

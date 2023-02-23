@@ -14,7 +14,7 @@ const tile = {
 
 const technologyItem = {
     display: "inline",
-    // backgroundColor: "rgb(22 83 123)",
+    fontSize: "0.8rem",
     backgroundColor: "#3d3d3d",
     color: "white",
     boxShadow: "0 3px 5px rgb(0 0 0 / 0.2)",

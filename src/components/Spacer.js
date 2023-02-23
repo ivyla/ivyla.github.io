@@ -1,6 +1,6 @@
 const spacerLarge = {
     backgroundColor: "#B1D9F3",
-    width: "400px",
+    width: "4020px",
     height: "2px",
     borderRadius: "5px",
     marginBottom: "1rem"

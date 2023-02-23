@@ -1,4 +1,4 @@
-- Play around with font sizing 
-- Should I make each project take up the horizontal space? Will experiment with designing
-- Gather images for each project
-- Figure out the wrapping for components
+- Enhance responsiveness
+- Experiment with icon colors being blue
+- Fix spacing per section
+- Fix spacing between sections

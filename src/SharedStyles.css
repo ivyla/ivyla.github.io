@@ -1,14 +1,6 @@
-.section {
-    width: 87%;
-    /* margin-top: 150px; */
-    margin-bottom: 150px;
-    /* margin-bottom: 300px; */
-}
-
 .media-icons {
     color: black;
-    /* color: #1e95e3; */
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-right: 8px;
     transition: 400ms;
 }
