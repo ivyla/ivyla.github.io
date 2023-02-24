@@ -1,0 +1,14 @@
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.listStyle {
+    columns: 3;
+}
+
+@media all and (min-width: 200px) and (max-width: 768px) {
+    .listStyle {
+        columns: 2;
+    }
+}
