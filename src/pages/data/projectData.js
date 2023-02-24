@@ -41,7 +41,7 @@ let projectData = [
         projectName: "Clean This Space!",
         projectDesc: `A platform where the community can crowdfund environmentally conscious events`,
         projectDate: "",
-        technologies: ["React", "Javascript", "HTML", "CSS"],
+        technologies: ["React", "Javascript", "CSS"],
         repoLink: "https://github.com/ivyla/Clean-This-Space",
         demoLink: "https://devpost.com/software/temp-2k3y9e",
         projectType: "hackathon - cruzhacks 3rd place"
@@ -62,7 +62,7 @@ let projectData = [
         projectName: "Portfolio V1",
         projectDesc: `The very first iteration of my portfolio website, designed and developed from scratch`,
         projectDate: "",
-        technologies: ["HTML", "CSS", "Javascript", "React"],
+        technologies: ["HTML", "CSS", "React"],
         repoLink: "https://github.com/ivyla/ivyla.github.io",
         demoLink: "",
         projectType: "personal project"

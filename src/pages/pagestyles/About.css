@@ -38,3 +38,23 @@
     margin-right: 100px;
     margin-top: 30px;
 }
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-bottom: 200px;
+    width: 100%;
+}
+
+@media all and (min-width: 200px) and (max-width: 400px) {
+    .home {
+        margin-bottom: 0;
+    }
+}
+
+.center {
+    /* margin: auto; */
+    width: 80%;
+}

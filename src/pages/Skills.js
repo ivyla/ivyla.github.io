@@ -1,9 +1,10 @@
 import ProjectTile from "../components/ProjectTile"
 import "../fonts.css"
-import "./pagestyles/Projects.css"
+import "./pagestyles/Skills.css"
 // import skillsData from "../pages/data/projectData"
 import SkillTile from "../components/SkillTile"
 import Spacer from "../components/Spacer"
+
 const skillsData = [
     {
         key: 1,
@@ -38,6 +39,7 @@ const skillsData = [
             "UI Design",
             "REST APIs",
             "Batch Processing",
+            "Functional Programming",
             "Object-Oriented Programming",
             "Zephyr Testing",
             "Behavior Driven Development",
@@ -70,11 +72,15 @@ let skills = skillsData.map((item) => (
         columnNums={item.columnNums}
     />
 ))
+
 let Skills = () => {
     return (
         <div className="section" id="skills">
             <h2> Skills 🎯 </h2>
-            <div> {skills} </div>
+            {skills[0]}
+            {skills[1]}
+            {skills[2]}
+            {skills[3]}
         </div>
     )
 }

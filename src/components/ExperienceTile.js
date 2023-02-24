@@ -7,7 +7,7 @@ import tech4good from "../images/smile-small.png"
 import readlee from "../images/readlee.png"
 import csa from "../images/csa.jpg"
 import rad from "../images/rad.png"
-let images = [schwab, readlee, rad, tech4good, csa]
+let images = [schwab, rad, tech4good, csa]
 
 let ExperienceTile = ({
     role,

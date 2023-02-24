@@ -12,19 +12,19 @@ const experienceData = [
         date: "July 2021 - Present"
         // image: "../images/schwab.png"
     },
-    {
-        key: 5,
-        role: "Software Developer",
-        company: "Readlee",
-        companyLink: "https://readlee.com",
-        roleDesc: [
-            "Frontend development using Flutter framework",
-            "Develop user interfaces for reading comprehension software"
-        ],
-        // Provide enhancements to user
-        date: "Nov. 2020 - Jan. 2021"
-        // image: "../images/csa.jpg"
-    },
+    // {
+    //     key: 5,
+    //     role: "Software Developer",
+    //     company: "Readlee",
+    //     companyLink: "https://readlee.com",
+    //     roleDesc: [
+    //         "Frontend development using Flutter framework",
+    //         "Develop user interfaces for reading comprehension software"
+    //     ],
+    //     // Provide enhancements to user
+    //     date: "Nov. 2020 - Jan. 2021"
+    //     // image: "../images/csa.jpg"
+    // },
     {
         key: 2,
         role: "Founding Member",
