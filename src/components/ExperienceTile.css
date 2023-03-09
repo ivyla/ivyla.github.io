@@ -14,6 +14,7 @@
     object-fit: cover;
 }
 
+/* TODO in mobile version, remove it */
 .contentRight {
     margin-left: 2rem;
 }

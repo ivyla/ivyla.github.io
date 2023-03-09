@@ -7,8 +7,17 @@
     columns: 3;
 }
 
+.skillsContainer {
+    width: 85%;
+    margin: auto;
+}
+
 @media all and (min-width: 200px) and (max-width: 768px) {
     .listStyle {
         columns: 2;
+    }
+
+    .skillsContainer {
+        width: 100%;
     }
 }

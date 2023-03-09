@@ -1,7 +1,6 @@
 import ProjectTile from "../components/ProjectTile"
 import "../fonts.css"
 import "./pagestyles/Skills.css"
-// import skillsData from "../pages/data/projectData"
 import SkillTile from "../components/SkillTile"
 import Spacer from "../components/Spacer"
 
@@ -77,10 +76,12 @@ let Skills = () => {
     return (
         <div className="section" id="skills">
             <h2> Skills 🎯 </h2>
-            {skills[0]}
-            {skills[1]}
-            {skills[2]}
-            {skills[3]}
+            <div className="skillsContainer">
+                {skills[0]}
+                {skills[1]}
+                {skills[2]}
+                {skills[3]}
+            </div>
         </div>
     )
 }
