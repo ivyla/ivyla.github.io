@@ -40,8 +40,8 @@ let Home = () => {
                     Hi, I'm Ivy! I am a software engineer based in San
                     Francisco, CA. Since 2021, I've been developing cool
                     features @ Charles Schwab. I love learning anything I can
-                    about coding - at work I'm developing Java back end
-                    applications while my projects feature front end experiences
+                    about coding. At work I'm developing Java back end
+                    applications while my projects feature front end interfaces
                     in both mobile and web. I hope to utilize my creations to
                     their fullest potential by delivering meaningful and elegant
                     experiences!{" "}

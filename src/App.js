@@ -6,6 +6,7 @@ import Experience from "./pages/Experience"
 import Nav from "./components/Nav"
 import Skills from "./pages/Skills"
 // import Contact from "./pages/Footer"
+import {UpCircleFilled} from "@ant-design/icons"
 import Footer from "./components/Footer"
 
 import Aos from "aos"

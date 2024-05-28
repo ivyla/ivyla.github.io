@@ -2,3 +2,6 @@
 - Experiment with icon colors being blue
 - Fix spacing per section
 - Fix spacing between sections
+
+5/27
+- Add scroll to top button after scroll starts

@@ -1,6 +1,7 @@
 import "./Nav.css"
 // import "../SharedStyles.css"
 import "../fonts.css"
+import {MenuOutlined} from "@ant-design/icons"
 
 const customNavStyle = {
     marginTop: "1rem",
@@ -8,35 +9,45 @@ const customNavStyle = {
     paddingRight: "6rem",
     alignSelf: "end"
 }
+function myFunction() {
+    var x = document.getElementById("myTopnav")
+    if (x.className === "topnav") {
+        x.className += " responsive"
+    } else {
+        x.className = "topnav"
+    }
+}
+
 let Nav = () => (
-    <div style={customNavStyle}>
-        <ul className="navBar">
-            <li className="listItem">
-                <a href="." className="hoverLink">
-                    Home
-                </a>
-            </li>
-            <li className="listItem">
-                <a href="#projects" className="hoverLink">
-                    Projects
-                </a>
-            </li>
-            <li className="listItem">
-                <a href="#experience" className="hoverLink">
-                    Experience
-                </a>
-            </li>
-            <li className="listItem">
-                <a href="#skills" className="hoverLink">
-                    Skills
-                </a>
-            </li>
-            <li className="listItem">
-                <a href="#about" className="hoverLink">
-                    About
-                </a>
-            </li>
-        </ul>
+    <div className="topnav" id="myTopnav" style={customNavStyle}>
+        <a href="#home" className="hoverLink">
+            Home
+        </a>
+        <a href="#projects" className="hoverLink">
+            {" "}
+            Projects{" "}
+        </a>
+        <a href="#experience" className="hoverLink">
+            {" "}
+            Experience{" "}
+        </a>
+        <a href="#skills" className="hoverLink">
+            {" "}
+            Skills{" "}
+        </a>
+        <a href="#about" className="hoverLink">
+            About{" "}
+        </a>
+        <a
+            href="#"
+            className="media-icons icon"
+            onClick={(e) => {
+                e.preventDefault()
+                myFunction()
+            }}
+        >
+            <MenuOutlined />
+        </a>
     </div>
 )
 export default Nav
