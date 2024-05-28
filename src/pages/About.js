@@ -22,10 +22,10 @@ let About = () => (
                         Spongebob Squarepants Typing.
                     </a>{" "}
                     I fell in love with the idea of typing something and seeing
-                    the results on the screen. Deeply inspired to feed my
-                    curiosity, I learned how to do many different things like
-                    making HTML changes to my Myspace page, or editing videos
-                    with outrageous effects.
+                    the results on the screen. This ignited my passion for
+                    learning how to do things online - I would meticulously make
+                    HTML changes to my Myspace theme, and spend hours learning
+                    how to edit videos with outrageous effects.
                     <p>
                         {" "}
                         Indulging into all the resources the world wide web
@@ -38,8 +38,8 @@ let About = () => (
                     {" "}
                     In my spare time, I like to design websites, play video
                     games, and keep myself up to date on the latest competition
-                    shows. Some of my other interests include nature, art,
-                    animation, stage lighting, and trying new tea flavors!
+                    shows. I also love nature, art, animation, and trying new
+                    tea flavors!
                 </p>
 
                 <p
@@ -50,8 +50,8 @@ let About = () => (
                     }}
                 >
                     {" "}
-                    ✨ Thank you so much for visiting my site, there's nothing I
-                    love more than letting others see my creations. ✨
+                    ✨ Thank you for visiting my site, there's nothing I love
+                    more than letting others see my creations. ✨
                 </p>
             </div>
             <div className="aboutImg">

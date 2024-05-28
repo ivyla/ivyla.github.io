@@ -33,17 +33,18 @@ const skillsData = [
         key: 3,
         skillsTitle: "Development",
         skillsList: [
-            "Front End Development",
-            "Responsive Web Design",
-            "UI Design",
-            "REST APIs",
             "Batch Processing",
             "Functional Programming",
             "Object-Oriented Programming",
-            "Zephyr Testing",
+            "Production Release Process",
             "Behavior Driven Development",
             "Test Driven Development",
-            "Computer Systems Design"
+            "REST APIs",
+            "Computer Systems Design",
+            "Front End Development",
+            "Responsive Web Design",
+            "UI Design",
+            "Agile Software Development"
         ],
         columnNums: 3
     },
@@ -51,15 +52,13 @@ const skillsData = [
         key: 4,
         skillsTitle: "Additional",
         skillsList: [
-            "Agile Best Practices",
-            "SCRUM Framework",
             "Public Speaking",
+            "Documentation",
+            "SCRUM Framework",
             "High Fidelity Mockups",
             "Wireframing",
             "User Persona Research",
-            "Qualitative Coding",
-            "Ideation",
-            "Video Editing"
+            "Qualitative Coding"
         ],
         columnNums: 3
     }

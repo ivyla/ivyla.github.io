@@ -37,12 +37,14 @@ let Home = () => {
                 </p>
                 <div style={mySpacer}> </div>
                 <p>
-                    Hi, I'm Ivy! I am a Full Stack developer based in San
-                    Francisco, CA. I'm currently a backend engineer @ Charles
-                    Schwab. I'm really passionate about creating front end
-                    interfaces as well so I have some more exciting projects in
-                    the works! I hope to utilize my creations to their fullest
-                    potential by delivering meaningful and elegant experiences.{" "}
+                    Hi, I'm Ivy! I am a software engineer based in San
+                    Francisco, CA. Since 2021, I've been developing cool
+                    features @ Charles Schwab. I love learning anything I can
+                    about coding - at work I'm developing Java back end
+                    applications while some of my projects feature front end
+                    stuff in both mobile and web. I hope to utilize my creations
+                    to their fullest potential by delivering meaningful and
+                    elegant experiences! 🚀{" "}
                 </p>
 
                 <a
@@ -76,10 +78,7 @@ let Home = () => {
                 >
                     <FileTextOutlined className="media-icons" id="email-icon" />
                 </a>
-                <span className="codeComment">
-                    {" "}
-                    // would love to connect! :-){" "}
-                </span>
+                <span className="codeComment"> // let's connect! :-) </span>
             </div>
         </div>
     )

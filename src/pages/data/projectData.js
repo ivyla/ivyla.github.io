@@ -54,7 +54,7 @@ let projectData = [
         technologies: ["Flutter", "Firebase", "Mobile"],
         repoLink: "",
         demoLink:
-            "https://docs.google.com/presentation/d/1TTCm3boRhFMU7ZIW47mZuz1chMMkxtGQ4POKX7DZcOE/edit#slide=id.g859d963ec1_0_2",
+            "https://docs.google.com/presentation/d/1Mn1gDdcFavQ-Nit_VWZ_PSQ9wXwc9x6T/edit?usp=sharing&ouid=117300142214570113154&rtpof=true&sd=true",
         projectType: "senior design project"
     },
     {

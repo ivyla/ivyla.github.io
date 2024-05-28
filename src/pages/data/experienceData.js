@@ -5,7 +5,7 @@ const experienceData = [
         company: "Charles Schwab",
         companyLink: "https://www.schwab.com/",
         roleDesc: [
-            "Backend development with a focus in Java Spring batch processing, functional programming, and Python test automation",
+            "Backend development with a focus in Java Spring batch processing, functional programming, and test automation (Java and Python)",
             "Won 1st Place in a month long hackathon by developing a data visualization tool in a team of 4 ",
             "NERD Program Affiliate (Sept. '21)"
         ],
@@ -30,7 +30,7 @@ const experienceData = [
         role: "Founding Member",
         company: "Rent-A-Driveway",
         companyLink:
-            "https://docs.google.com/presentation/d/1TTCm3boRhFMU7ZIW47mZuz1chMMkxtGQ4POKX7DZcOE/edit?usp=sharing",
+            "https://docs.google.com/presentation/d/1Mn1gDdcFavQ-Nit_VWZ_PSQ9wXwc9x6T/edit?usp=sharing&ouid=117300142214570113154&rtpof=true&sd=true",
         roleDesc: [
             "Fullstack development using Flutter and Firebase",
             "Agile sprint planning and leading weekly scrum meetings",

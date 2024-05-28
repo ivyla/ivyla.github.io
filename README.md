@@ -1,9 +1,6 @@
-# Portfolio V2 by Ivy La
+# ivyla.net
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## About
-//todo
-
-## Tools
-//todo
+This is a responsive, single page website created to showcase some of my projects and background! I both designed and developed this site. :-)
