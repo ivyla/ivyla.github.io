@@ -41,10 +41,10 @@ let Home = () => {
                     Francisco, CA. Since 2021, I've been developing cool
                     features @ Charles Schwab. I love learning anything I can
                     about coding - at work I'm developing Java back end
-                    applications while some of my projects feature front end
-                    stuff in both mobile and web. I hope to utilize my creations
-                    to their fullest potential by delivering meaningful and
-                    elegant experiences! 🚀{" "}
+                    applications while my projects feature front end experiences
+                    in both mobile and web. I hope to utilize my creations to
+                    their fullest potential by delivering meaningful and elegant
+                    experiences!{" "}
                 </p>
 
                 <a
@@ -72,13 +72,13 @@ let Home = () => {
                     <MailFilled className="media-icons" id="email-icon" />
                 </a>
                 <a
-                    href="mailto:ila@ucsc.edu"
+                    href="https://docs.google.com/document/d/1nOiYDSfLW5fj_MG33Xdwjem1qQyoiI4RU0DO2PsJDBY/edit?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <FileTextOutlined className="media-icons" id="email-icon" />
                 </a>
-                <span className="codeComment"> // let's connect! :-) </span>
+                <span className="codeComment"> // let's connect :-) </span>
             </div>
         </div>
     )
