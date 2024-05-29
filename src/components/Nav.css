@@ -1,3 +1,21 @@
+.pls {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+    li {
+        display: inline;
+    }
+
+    float: right;
+    position: fixed;
+    /* width: 100%; */
+    right: 0;
+    z-index: 1;
+}
+
 /* .navBar {
     list-style-type: none;
     margin: 0;
@@ -7,29 +25,35 @@
 
 /* Add a black background color to the top navigation */
 .topnav {
-    overflow: hidden;
+    /* overflow: hidden; */
     float: right;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.navContainer {
+    float: right;
+    /* width: 100%; */
 }
 
 .topnav a {
-    float: left;
-    display: block;
-    color: black;
+    float: right; 
+    display: inline;
+    /* color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 17px; */
 }
 
-.topnav .icon {
+ .topnav .icon {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
-    .topnav a {
-        /* .topnav a:not(:first-child) { */
-        display: none;
-    }
+/* @media screen and (max-width: 600px) {
     .topnav a.icon {
         float: right;
         display: block;
@@ -50,4 +74,4 @@
         display: block;
         text-align: left;
     }
-}
+} */
